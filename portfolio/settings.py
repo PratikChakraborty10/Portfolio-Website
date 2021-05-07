@@ -128,3 +128,20 @@ STATICFILES_DIRS = (
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+DATA = {
+    "NAME": "Pratik Chakraborty",
+    "ABOUT_ME": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, accusamus voluptatum quam soluta quidem aspernatur. Ipsa a inventore soluta dicta maiores vel sequi magni optio, minus dolorem debitis? Quaerat iste, molestias inventore, similique quas suscipit neque, doloribus dolores praesentium provident iure molestiae culpa consequuntur velit vel et corporis omnis odio?",
+    "LANGUAGES": [
+        "C++",
+        "Java",
+        "Python",
+        "Kotlin"
+    ],
+    "PROJECTS": [
+         ("filter_drama", "Birthday Greetings", "Lorem ipsum dolor sit amet."),
+         ("place", "TODO Application", "Lorem ipsum dolor sit amet."),
+         ("whatshot", "Notes Taking Application", "Lorem ipsum dolor sit amet."),
+         ("fingerprint", "Finger Print Scanner", "Lorem ipsum dolor sit amet.")
+    ]
+}
